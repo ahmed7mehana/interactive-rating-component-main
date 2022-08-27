@@ -1,0 +1,111 @@
+body{
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 12%, 8%);
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 12%;
+}
+.main-contaner, .thank-u {
+    background-color:hsl(213, 19%, 18%);
+}
+.main-contaner,.thank-u{
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+}
+.main-contaner img {
+    background-color:hsl(215, 20%, 29%) ;
+    padding: 12px;
+    border-radius: 50%;
+}
+.main-contaner ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 31px 0px 31px 0px;
+}
+.main-contaner .btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color:  hsl(215, 18%, 28%);
+    color: aliceblue;
+    transition: all 0.5s;
+}
+.main-contaner .submit{
+width: 100%;
+padding: 15px;
+text-transform: uppercase;
+background-color: hsl(25, 97%, 53%);
+color: aliceblue;
+border: none;
+border-radius: 13px;
+transition: all 0.5s;
+}
+.main-contaner .submit:hover{
+background-color:white;
+color:  hsl(25, 97%, 53%);
+}
+.main-contaner .btn:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.main-contaner .btn:focus{
+    background-color:hsl(217, 12%, 63%);
+}
+.main-contaner h2{
+    color: aliceblue;
+}
+.main-contaner p {
+    color: hsl(0, 2%, 63%);
+}
+.thank-u h2{
+    color: aliceblue;
+    text-align: center;
+}
+.thank-u p{
+    color: hsl(0, 2%, 63%);
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.thank-u .orange{
+    background-color: hsl(215, 18%, 28%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 15px;
+    padding: 5px 11px 4px 11px;
+}
+.thank-u{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.hide{
+    display: none;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+    color: antiquewhite;
+    letter-spacing: 1.1px;
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+text-decoration: none;
+}
+@media (max-width: 450px) {
+.main-contaner,.thank-u{
+width: 200px;}
+.main-contaner .btn{
+    width: 20px;
+    height: 20px;
+}
+.main-contaner ul{
+    padding: 0;
+}
+}

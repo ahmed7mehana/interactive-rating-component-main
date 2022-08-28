@@ -13,9 +13,9 @@ body{
     background-color:hsl(213, 19%, 18%);
 }
 .main-contaner,.thank-u{
-    border-radius: 10px;
-    padding: 15px;
-    width: 250px;
+    border-radius: 37px;
+    padding: 24px;
+    width: 283px;
 }
 .main-contaner img {
     background-color:hsl(215, 20%, 29%) ;
@@ -45,7 +45,7 @@ text-transform: uppercase;
 background-color: hsl(25, 97%, 53%);
 color: aliceblue;
 border: none;
-border-radius: 13px;
+border-radius: 40px;
 transition: all 0.5s;
 }
 .main-contaner .submit:hover{
